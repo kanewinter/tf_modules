@@ -1,0 +1,13 @@
+.vagrant
+./builds
+.idea
+.terraform
+*.retry
+*~
+#*
+.#*
+.backup
+
+
+#Ignore vagrant box export
+package.box
