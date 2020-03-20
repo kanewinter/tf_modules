@@ -1,7 +1,7 @@
 variable "azs" {
   type = list(string)
   description = "availability zones"
-  default = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  default = ["us-east-2a", "us-east-2b", "us-east-2c"]
 }
 variable "vpc_cidr" {
   default = "10.10.0.0/16"
